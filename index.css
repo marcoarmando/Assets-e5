@@ -5,7 +5,7 @@
     box-sizing:border-box ;
 }
 body {
-    background: black;
+    background: rgb(20, 20, 20);
     overflow-x: hidden;
 }
 header {
@@ -22,7 +22,40 @@ header {
     margin-left: 100px;
     color: #FFFFFF;
 }
-section>h2 {
+
+.cont-logo img {
+    background-repeat: no-repeat;
+    background: transparent;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    height: 60px;
+}
+
+.cont-selec {
+    display: flex;
+    position: relative;
+    right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cont-selec ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 70px;
+
+}
+
+.cont-selec a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+section h2 {
     border: none;
     font-size: 41px;
     font-weight: 600;
@@ -54,10 +87,11 @@ section>h2 {
     align-items: center;
     position: relative;
     right: 40px;
-}
+} 
+
 .img {
     position: absolute;
-    background: url(/Portada/image_34-removebg-preview.png);
+    background: url(imagenes/pizzaallado.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 193px;
@@ -66,7 +100,7 @@ section>h2 {
 }
 .img-2 {
     position: absolute;
-    background: url(/Portada/pizza_1-removebg-preview.png);
+    background: url(imagenes/individual2.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 258px;
@@ -103,7 +137,7 @@ aside {
     border-radius: 10px;
 }
 .cont-img-1 {
-    background: url(/Menu/Photo\ Menu\ \(1\).png);
+    background: url(imagenes/bennazianna.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -150,10 +184,8 @@ aside {
     font-weight: 500;
 }
 
-/* tu vieja */
-
 .cont-img-2 {
-    background: url(/Menu/Photo\ Menu.png);
+    background: url(imagenes/troncopizza.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -163,7 +195,7 @@ aside {
 }
 
 .cont-img-3 {
-    background: url(/Menu/Photo\ Menu\ \(3\).png);
+    background: url(imagenes/papasprovenzal.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -204,7 +236,7 @@ aside {
     gap: 10px;
 }
 .img-categ {
-    background: url(/Comida/image\ 34.png);
+    background: url(imagenes/porcionpizza.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
@@ -223,42 +255,42 @@ aside {
     border: none;
 }
 .img-categ-2 {
-    background: url(/Comida/burger\ 1.png);
+    background: url(imagenes/hamburguesas.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
     height: 65px;
 }
 .img-categ-3 {
-    background: url(/Comida/fries\ 2.png);
+    background: url(imagenes/napapuki.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
     height: 65px;
 }
 .img-categ-4 {
-    background: url(/Comida/pizza\ 2.png);
+    background: url(imagenes/individuales.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
     height: 65px;
 }
 .img-categ-5 {
-    background: url(/Comida/buritto\ 1.png);
+    background: url(imagenes/wraps.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
     height: 65px;
 }
 .img-categ-6 {
-    background: url(/Comida/taco\ 1.png);
+    background: url(imagenes/mexicanfood.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
     height: 65px;
 }
 .img-categ-7 {
-    background: url(/Comida/float\ 1.png);
+    background: url(imagenes/batidukis.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
@@ -296,7 +328,7 @@ aside {
     border: none;
 }
 .card-img {
-    background: url(/Cardx2/Photo\ Menu.png);
+    background: url(imagenes/mrpit.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -351,7 +383,7 @@ aside {
     font-weight: 500;
 }
 .card-img-2 {
-    background: url(/Cardx2/Photo\ Menu\ \(1\).png);
+    background: url(imagenes/qjamone.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -361,7 +393,7 @@ aside {
     height: 92px;
 }
 .card-img-3 {
-    background: url(/Cardx2/Photo\ Menu\ \(2\).png);
+    background: url(imagenes/charlygarcia.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -371,7 +403,7 @@ aside {
     height: 92px;
 }
 .card-img-4 {
-    background: url(/Cardx2/Photo\ Menu\ \(3\).png);
+    background: url(imagenes/lamaradona.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -381,7 +413,7 @@ aside {
     height: 92px;
 }
 .card-img-5 {
-    background: url(/Cardx2/Photo\ Menu\ \(4\).png);
+    background: url(imagenes/picantovich.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -391,7 +423,7 @@ aside {
     height: 92px;
 }
 .card-img-6 {
-    background: url(/Cardx2/Photo\ Menu\ \(5\).png);
+    background: url(imagenes/hasbullah.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -401,7 +433,7 @@ aside {
     height: 92px;
 }
 .card-img-7 {
-    background: url(/Cardx2/Photo\ Menu\ \(6\).png);
+    background: url(imagenes/leomessi.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -411,7 +443,7 @@ aside {
     height: 92px;
 }
 .card-img-8 {
-    background: url(/Cardx2/Photo\ Menu\ \(7\).png);
+    background: url(imagenes/nickgi.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -453,7 +485,7 @@ footer {
     color: #fff;
 }
 .foot-text-2 span {
-    position: relative;
+    position:git  relative;
     top: 5px;
 }
 .foot-text-2 span {
@@ -474,4 +506,5 @@ footer {
     word-wrap: normal;
     direction: ltr;
     -webkit-font-smoothing: antialiased;
+    color: #FFA400;
 }
